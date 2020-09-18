@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16426" started-at="2020-09-18T14:36:46 IST" finished-at="2020-09-18T14:37:03 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="16426" started-at="2020-09-18T14:36:46 IST" finished-at="2020-09-18T14:37:03 IST">
+      <class name="UATTests.testNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="setUpClass" is-config="true" duration-ms="1095" started-at="2020-09-18T14:36:46 IST" finished-at="2020-09-18T14:36:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="6562" started-at="2020-09-18T14:36:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Authorization validations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="636" started-at="2020-09-18T14:36:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Authorization validations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="679" started-at="2020-09-18T14:36:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Authorization validations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="589" started-at="2020-09-18T14:36:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Authorization validations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="614" started-at="2020-09-18T14:36:56 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["No Authorization provided"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="924" started-at="2020-09-18T14:36:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid authorization provided"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="617" started-at="2020-09-18T14:36:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid authorization provided"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="587" started-at="2020-09-18T14:36:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid authorization provided"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate authorizations]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="651" started-at="2020-09-18T14:36:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:36:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify company lookup based on domain"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Look up company based on domain name.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="714" started-at="2020-09-18T14:36:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:37:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify company lookup based on domain"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Look up company based on domain name.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="1227" started-at="2020-09-18T14:37:00 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:37:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify company lookup based on domain and company name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Look up company based on domain name.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path legalName doesn't match.
+Expected: Samsung Electronics Co. Ltd.
+  Actual: Samsung SDS Co.,Ltd.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path legalName doesn't match.
+Expected: Samsung Electronics Co. Ltd.
+  Actual: Samsung SDS Co.,Ltd.
+
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+at UATTests.AuthorizationKeyValidations.body_should_be(AuthorizationKeyValidations.java:61)
+at ✽.Body "legalName" should be "Samsung Electronics Co. Ltd."(file:///D:/My_Projects/AutomationProjects/CompanyAPITest/./src/test/resources/Features/Lookup.feature:23)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="runScenario" duration-ms="961" started-at="2020-09-18T14:37:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T14:37:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify company lookup based on domain and company name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Look up company based on domain name.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:UATTests.testNGRunner@43a0cee9]" name="tearDownClass" is-config="true" duration-ms="459" started-at="2020-09-18T14:37:02 IST" finished-at="2020-09-18T14:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- UATTests.testNGRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+  <listeners>
+    <listener class-name="Listeners.SampleReport" />
+  </listeners>
+  <parameter name="TestData" value="./src/test/resources/TestData/TestData.xlsx" />
+  <parameter name="API" value="https://company.clearbit.com/v2/companies/find" />
+  <test name="CompanyAPI">
+    <classes>
+      <class name="RegressionTest.CompanyAPI"/>
+    </classes>
+  </test> <!-- CompanyAPI -->
+</suite> <!-- RegressionTest -->
